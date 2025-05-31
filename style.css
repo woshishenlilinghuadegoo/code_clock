@@ -1,0 +1,95 @@
+body {
+  background-color: #1e1f22;
+  background-image: url("fengi.png");
+}
+
+.tab {
+  margin: 3rem;
+  margin-left: 2.5em;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 35px;
+  white-space: nowrap;
+  line-height: 0%;
+  color: white;
+}
+
+p {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 20px;
+  padding-top: 3px;
+  padding-left: 10px;
+  font-weight: bolder;
+  color: #abb2bf;
+}
+
+a{
+  font-family: "JetBrains Mono", monospace;
+  font-size: 15px;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+}
+
+.border {
+  outline: auto;
+  outline-color: #383c44;
+  outline-offset: 15px;
+  outline-width: 5px;
+  outline-style: solid;
+  padding: 10px;
+  border-top-right-radius: 1%;
+  border-bottom-left-radius: 1%;
+  border-bottom-right-radius: 1%;
+  border-top-left-radius: 1%;
+}
+
+.window {
+  background-color: #383c44;
+  height: 35px;
+  width: 175px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: left;
+  display: flex;          /* 启用弹性布局 */
+  align-items: center;    /* 垂直居中 */
+  justify-content: space-between; /* 左右分布 */
+  padding: 0 15px;        /* 左右内边距 */
+}
+
+.win-pos {
+  transform: translateY(-30px);
+}
+
+.dot {
+  height: 16px;
+  width: 16px;
+  background-color: #f4ebec;
+  border-radius: 50%;
+  margin-left: 0;
+  position: relative;
+  left: -5px;
+}
+
+.big-title {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: bold;
+  color: #bd731d;
+  margin-top: 350px;
+  margin-bottom: 10px;
+}
+
+.decimal-part {
+  color: #c678dd; /* 淡紫色 */
+}
